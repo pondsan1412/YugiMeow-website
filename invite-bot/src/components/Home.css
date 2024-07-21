@@ -1,0 +1,47 @@
+.home {
+    text-align: center;
+    padding: 2rem;
+    background-image: url('../assets/bg.jpg'); /* ใช้ชื่อไฟล์พื้นหลัง */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* ใช้เต็มความสูงของหน้าจอ */
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* เพื่อให้รูปภาพไม่เสียรูป */
+    border: 3px solid #ffffff; /* ขอบสีขาว */
+    margin-bottom: 1rem;
+  }
+  
+  .home-content {
+    color: white; /* ฟอนต์สีขาว */
+    font-weight: bold; /* ฟอนต์หนาขึ้น */
+  }
+  
+  .invite-button {
+    background-color: #7289da; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีข้อความในปุ่ม */
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .invite-button:hover {
+    background-color: #5a6abf; /* สีพื้นหลังของปุ่มเมื่อวางเมาส์ */
+  }
+  

@@ -1,0 +1,114 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #f5f5f5, #ccc);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px;
+}
+
+.navbar a {
+  margin: 0 15px;
+  padding: 10px 20px;
+  background-color: #555;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #666;
+}
+
+.home, .invite, .support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.invite-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.invite-button:hover {
+  background-color: #0056b3;
+}
+
+.support-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.support-container img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.footer a {
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}

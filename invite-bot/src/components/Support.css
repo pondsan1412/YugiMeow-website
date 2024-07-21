@@ -1,0 +1,46 @@
+/* Support.css */
+
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    background-color: transparent; /* ไม่มีพื้นหลัง */
+    min-height: 100vh; /* ให้ครอบคลุมความสูงของหน้าจอ */
+    justify-content: space-between; /* จัดตำแหน่งให้เนื้อหาหลักอยู่ตรงกลาง และให้เนื้อหาด้านล่างติดกับขอบล่างของหน้าจอ */
+  }
+  
+  .support-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* จำกัดความกว้างสูงสุดของเนื้อหา */
+    text-align: center;
+    background-color: transparent; /* ไม่มีพื้นหลัง */
+  }
+  
+  .bank-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bank-logo {
+    width: 150px; /* ขนาดของโลโก้ธนาคาร */
+  }
+  
+  .qr-info {
+    text-align: center;
+  }
+  
+  .qr-code {
+    width: 100px; /* ขนาดของ QR Code */
+  }
+  
+  .hand_panommue {
+    width: 50px; /* ขนาดของรูปยกมือไหว้ */
+    height: auto; /* รักษาสัดส่วนของภาพ */
+    margin-top: 10px; /* เว้นระยะห่างจาก QR Code */
+  }
+  

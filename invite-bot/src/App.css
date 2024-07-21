@@ -1,0 +1,146 @@
+/* General Styles */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url('./assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* App Styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+}
+
+.App-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.App-header nav ul li {
+  margin: 0 10px;
+}
+
+.App-header nav ul li a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Footer Styles */
+.App-footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-footer p {
+  margin: 0 10px;
+}
+
+.App-footer .social-links {
+  display: flex;
+  align-items: center;
+}
+
+.App-footer .social-links img {
+  width: 24px;
+  margin: 0 10px;
+}
+
+/* Home Styles */
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.home .profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.home .profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.home .invite-button {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.home .invite-button:hover {
+  background-color: #21a1f1;
+}
+
+/* Support Styles */
+.support-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.logo-section, .qr-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.logo-section img, .qr-section img {
+  width: 100px;
+}
+
+.details-section {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
