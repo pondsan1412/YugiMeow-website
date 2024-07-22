@@ -16,6 +16,7 @@ function App() {
               <li><Link to="/">หน้าแรก</Link></li>
               <li><Link to="/support">บริจาค</Link></li>
               <li><Link to="/donate-list">รายชื่อผู้บริจาค</Link></li>
+              <li><Link to="https://top.gg/bot/1261274366721790006">เชิญผ่านTop.gg</Link></li>
               <li><Link to="https://discord.gg/a5SMQkk2">ดิสคอร์ดของเรา</Link></li>
             </ul>
           </nav>
@@ -26,6 +27,7 @@ function App() {
             <Route path="/invite" element={<Invite />} />
             <Route path="/support" element={<Support />} />
             <Route path="/donate-list" element={<Donate />}/>
+            
           </Routes>
         </main>
         <footer className="App-footer">

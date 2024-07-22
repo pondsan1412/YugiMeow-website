@@ -8,6 +8,7 @@ import usageImage5 from '../assets/how to 4.png';
 import usageImage6 from '../assets/how to 5.png';
 import backgroundImage from '../assets/star-background-gif-_no-shooting-star.webp';
 
+
 const Home = () => {
   const inviteLink = "https://discord.com/oauth2/authorize?client_id=1261274366721790006&permissions=1698730973068352&integration_type=0&scope=bot";
 
@@ -157,18 +158,7 @@ const Home = () => {
         <p> อย่าลืมว่าเลือกกรอกแค่อย่างเดียว ระหว่าง ชื่อ กับ id</p>
         <img src={usageImage6} alt="วิธีการใช้งานคำสั่ง" style={styles.usageImage} />
       </div>
-      <div style={styles.donateSection}>
-        <h2>Support Us</h2>
-        <input
-          type="number"
-          value={amount}
-          onChange={(e) => setAmount(e.target.value)}
-          placeholder="Enter amount"
-          style={styles.donateInput}
-        />
-        <button onClick={handleDonate} style={styles.donateButton}>Donate</button>
-        {message && <p>{message}</p>}
-      </div>
+      
     </div>
   );
 };
